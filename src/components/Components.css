@@ -6,6 +6,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 34px 0;
 }
 
 * {
@@ -61,7 +62,7 @@ li {
 }
 
 .logo {
-    max-width: 200px;
+    max-width: 250px;
     width: 100%;
     margin-left: 150px;
 }
@@ -70,7 +71,7 @@ li {
 /* FOOTER */
 
 .footer {
-    background-color: var(--baby-blue-color);
+    background-color: darkgrey;
     padding: 16px 0;
 }
 
@@ -85,7 +86,7 @@ li {
 }
 
 .footer__logo {
-    max-width: 100px;
+    max-width: 200px;
     width: 100%;
     margin: 16px 0;
 }

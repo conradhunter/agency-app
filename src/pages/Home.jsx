@@ -45,10 +45,18 @@ const Home = () => {
                             <Link to="/Services" className='btn'>See our Packages</Link>
                         </div>
                         <div className="services__icons">
-                            <FontAwesomeIcon className='services__icon rotate__animation' icon={faLaptopCode} />
-                            <FontAwesomeIcon className='services__icon rotate__animation' icon={faRectangleAd} />
-                            <FontAwesomeIcon className='services__icon rotate__animation' icon={faLightbulb} />
-                            <FontAwesomeIcon className='services__icon rotate__animation' icon={faPeopleGroup} />
+                            <div>
+                                <FontAwesomeIcon className='services__icon rotate__animation' icon={faRectangleAd} />
+                            </div>
+                            <div>
+                                <FontAwesomeIcon className='services__icon rotate__animation' icon={faLaptopCode} />
+                            </div>
+                            <div>
+                                <FontAwesomeIcon className='services__icon rotate__animation' icon={faLightbulb} />
+                            </div>
+                            <div>
+                                <FontAwesomeIcon className='services__icon rotate__animation' icon={faPeopleGroup} />
+                            </div>
                         </div>
                     </section>
                 </div>

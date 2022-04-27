@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "./Components.css"
 import { Link } from 'react-router-dom';
+import Logo from "../assets/logo.png";
 
 
 const Nav = () => {
@@ -10,11 +11,11 @@ const Nav = () => {
         <div className="nav__bar">
             <nav>
                 <figure>
-                    <img src="https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo-500x281.png" alt="" className="logo" />
+                    <img src={Logo} alt="" className="logo" />
                 </figure>
                 <ul className="nav__bar--links">
                     <li>
-                        <Link to="/Home" className="nav__bar--link link__hover--effect">Home</Link>
+                        <Link to="/" className="nav__bar--link link__hover--effect">Home</Link>
                     </li>
                     <li>
                         <Link to="/Who-are-we" className="nav__bar--link link__hover--effect">Who are we?</Link>
@@ -26,14 +27,14 @@ const Nav = () => {
                         <Link to="/Contact" className="nav__bar--link link__hover--effect">Contact Us</Link>
                     </li>
                     <li>
-                        <Link to="" className="nav__bar--link nav__bar--icon">
+                        <a href="https://www.linkedin.com/" target="_blank" className="nav__bar--link nav__bar--icon">
                             <FontAwesomeIcon icon={faLinkedinIn} />
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to="" className="nav__bar--link nav__bar--icon">
+                        <a href="https://www.instagram.com/" target="_blank" className="nav__bar--link nav__bar--icon">
                             <FontAwesomeIcon icon={faInstagram} />
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </nav>
