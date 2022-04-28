@@ -1,16 +1,10 @@
 import React from 'react';
-import contactImg from "../assets/undraw_contact.svg";
 
 const Contact = () => {
     return (
         <div className="contact">
             <div className="row">
                 <div className="contact__us">
-                    <div className="contact__img">
-                        <figure>
-                            <img src={contactImg} alt="" />
-                        </figure>
-                    </div>
                     <div className="contact__form--container">
                         <form>
                             <div className='input__container'>
@@ -39,7 +33,7 @@ const Contact = () => {
                             </div>
                             <div className='text__area'>
                                 <label htmlFor="" className="form__label">Message</label>
-                                <textarea name="message" id="text__area" cols="30" rows="10"></textarea>
+                                <textarea placeholder='Anything you want us to know before we chat?' name="message" id="text__area" cols="30" rows="10"></textarea>
                             </div>
                         </form>
                     </div>
