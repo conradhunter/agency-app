@@ -7,5 +7,7 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif; */
 
 body {
-  --blue-color: #62e1e9;
+    --yellow: #fffe00;
+    --white-hover: rgb(212, 211, 211);
+    --background: #232323;
 }

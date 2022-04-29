@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Components.css";
-import Logo from "../assets/logo.png";
 
 const Footer = () => {
     return (
@@ -24,7 +23,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="footer__img--copyright">
-                    <img className='footer__logo' src={Logo} alt="" />
+                    <img className='footer__logo' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/603px-Amazon_logo.svg.png" alt="" />
                     <h3 className="footer__copyright">COPYRIGHT &copy; INSERT BUSINESS NAME. ALL RIGHTS RESERVED</h3>
                 </div>
             </div>

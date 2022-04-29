@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "./Components.css"
 import { Link } from 'react-router-dom';
-import Logo from "../assets/logo.png";
 
 
 const Nav = () => {
@@ -11,7 +10,7 @@ const Nav = () => {
         <div className="nav__bar">
             <nav>
                 <figure>
-                    <img src={Logo} alt="" className="logo" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/603px-Amazon_logo.svg.png" alt="" className="logo" />
                 </figure>
                 <ul className="nav__bar--links">
                     <li>
