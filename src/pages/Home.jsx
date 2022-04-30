@@ -3,6 +3,7 @@ import "./Home.css";
 import Introduction from '../components/Home components/Introduction';
 import Servicesoutline from '../components/Home components/ServicesOutline';
 import Faq from '../components/Home components/FAQ';
+import Mailinglist from '../components/Home components/MailingList';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
                 <Introduction />
                 <Servicesoutline />
                 <Faq />
+                <Mailinglist /> 
             </div>
         </div>
     );

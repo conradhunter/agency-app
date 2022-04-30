@@ -73,7 +73,7 @@ li {
 
 .footer {
     background-color: black;
-    padding: 16px 0;
+    padding: 60px 0;
 }
 
 .footer__main--content {
@@ -84,12 +84,13 @@ li {
 
 .footer__links {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .footer__logo {
     max-width: 200px;
     width: 100%;
-    margin: 16px 0;
+    margin-bottom: 40px;
 }
 
 .footer__img--copyright {
