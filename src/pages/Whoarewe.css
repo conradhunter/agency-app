@@ -18,18 +18,18 @@
 }
 
 #undrawTeam__img {
-    max-width: 350px;
+    max-width: 275px;
 }
 
 .whatWeOffer__list {
     list-style-type: circle;
     color: var(--yellow);
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #whatWeOffer__heading {
     color: var(--yellow);
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px;
     padding-left: 0;
 }
@@ -42,11 +42,13 @@
 .member {
     color: var(--yellow);
     font-weight: 400;
+    font-size: 22px;
 }
 
 .member__role {
     color: var(--yellow);
-    font-weight: 400
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .team__container {

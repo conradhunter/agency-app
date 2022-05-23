@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Contact.css"
 
 const Contact = () => {
     return (
@@ -6,7 +7,8 @@ const Contact = () => {
             <div className="row">
                 <div className="contact__us">
                     <div className="contact__form--container">
-                        <form>
+                        <h1 id="contact__heading">Get in touch with us!</h1>
+                        <form id='contactPage__form'>
                             <div className='input__container'>
                                 <label htmlFor="" className="form__label">First Name</label>
                                 <input className='form__input' type="text" />
@@ -31,9 +33,9 @@ const Contact = () => {
                                 <label htmlFor="" className="form__label">Subject of message</label>
                                 <input className='form__input' type="text" />
                             </div>
-                            <div className='text__area'>
+                            <div className='text__area' id='span__two'>
                                 <label htmlFor="" className="form__label">Message</label>
-                                <textarea placeholder='Anything you want us to know before we chat?' name="message" id="text__area" cols="30" rows="10"></textarea>
+                                <textarea placeholder='Anything you want us to know before we chat?' name="message" id="text__area"></textarea>
                             </div>
                         </form>
                     </div>

@@ -10,7 +10,7 @@ const Whatweoffer = () => {
                     <li className='whatWeOffer__list'>No lock in contracts</li>
                     <li className='whatWeOffer__list'>Flat rate fees</li>
                     <li className='whatWeOffer__list'>Speak direct with the people doing the work, no middle-man</li>
-                    <li className='whatWeOffer__list'>range of services to help your business expand</li>
+                    <li className='whatWeOffer__list'>Range of services to help your businesses every need</li>
                 </ul>
             </div>
             <figure>

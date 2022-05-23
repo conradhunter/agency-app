@@ -32,7 +32,7 @@ li {
 .nav__bar--link {
     text-decoration: none;
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(246, 238, 238);
     transition: all 450ms ease;
     position: relative;
@@ -46,7 +46,7 @@ li {
     content: "";
     position: absolute;
     bottom: -3px;
-    height: 3px;
+    height: 2px;
     width: 0;
     right: 0;
     background-color: var(--white-hover);
@@ -101,13 +101,14 @@ li {
 }
 
 .footer__copyright {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .footer__link {
     text-decoration: none;
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
     transition: all 450ms ease;
     position: relative;
