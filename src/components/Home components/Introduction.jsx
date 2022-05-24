@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../Home components/home-assets/connected-logo-large.png";
+import logo from "../Home components/home-assets/connected-logo.png";
 
 const Introduction = () => {
     return (

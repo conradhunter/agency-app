@@ -33,12 +33,13 @@
 }
 
 #contactPage__form {
-    display: grid;
-    grid-template-columns: repeat(2, 300px);
-    grid-template-rows: repeat(4);
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
     max-width: 66%;
+    margin-bottom: 50px;
 }
 
 .input__container label {
@@ -49,7 +50,6 @@
 .input__container input {
     border: 2px solid var(--yellow);
     height: 28px;
-    margin-right: 20px;
     margin-bottom: 10px;
     outline: none;
     padding: 4px 8px;
@@ -58,6 +58,7 @@
 
 .text__area label {
     color: var(--yellow);
+    margin-bottom: 8px;
 }
 
 .text__area {
@@ -70,9 +71,17 @@
     padding: 4px 8px;
     background-color: rgb(235, 235, 235);
     border: 2px solid var(--yellow);
+    height: 100px;
+    width: 300px;
 }
 
 .input__container {
     display: flex;
     flex-direction: column;
+    width: 40%;
+}
+
+#contact__btn {
+    width: fit-content;
+    margin: 0 auto;
 }

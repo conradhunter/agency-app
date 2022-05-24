@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Contact.css"
 
-const Contact = () => {
+const Contact = () => {  
+
     return (
         <div className="contact">
             <div className="row">
@@ -38,6 +39,7 @@ const Contact = () => {
                                 <textarea placeholder='Anything you want us to know before we chat?' name="message" id="text__area"></textarea>
                             </div>
                         </form>
+                        <button className="btn" id='contact__btn'>Send it our way!</button>
                     </div>
                 </div>
             </div>

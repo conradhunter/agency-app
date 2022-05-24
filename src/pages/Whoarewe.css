@@ -60,3 +60,13 @@
 .team__member {
     text-align: center;
 }
+
+#member__icon {
+    font-size: 34px;
+    color: var(--yellow);
+    margin-top: 16px;
+}
+
+#member__icon:hover {
+    color: #ffffb7;
+}

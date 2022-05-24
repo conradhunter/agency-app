@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "./Components.css"
 import { Link } from 'react-router-dom';
-import logo from "../assets/connected-logo-large.png";
+import logo from "../assets/connected-logo.png";
 
 
 const Nav = () => {
